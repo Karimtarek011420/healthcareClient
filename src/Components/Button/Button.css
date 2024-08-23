@@ -1,0 +1,123 @@
+
+.btn{
+    padding: 8px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.btn--primary{
+    border-radius: 5%;
+    background-color: var(--primary);
+    color: white;
+    border: 1px solid var(--primary);
+}
+
+.btn--outline{
+    border-radius: 5px;
+    background-color: transparent;
+    color:white;
+    padding: 8px 20px;
+    border: 1px solid white;
+    transition: all 0.3s ease-out;
+}
+
+.btn--outline2{
+    border-radius: 5px;
+    background-color: white;
+    color:#012572;
+    padding: 8px 20px;
+    border: 1px solid #012572;
+    width: 100%;
+}
+
+.btn--white{
+    border-radius: 5px;
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid var(white);
+    margin-right: 10px;
+}
+
+.btn--green{
+    background-color:  var(--primary);
+    color:white;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn--navy{
+    background-color: var(--navy);
+    color: white;
+    border: 1px solid var(white);
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+.btn--white2{
+    background-color: white;
+    color: #1A2447;
+    border: 1px solid #C0C1D1;
+    margin-right: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.btn--circular{
+    background-color:  var(--primary);
+    color:white;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.btn--circular-line{
+    border-radius: 50px;
+    background-color: transparent;
+    color: #012572;
+    padding: 8px 20px;
+    border: 1px solid #012572;
+    transition: all 0.3s ease-out;
+}
+
+.btn--circular2{
+    background-color:  var(--primary);
+    color:white;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.btn--orange{
+    background-color: #F04F23;
+    color:white;
+    border: none;
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.btn--medium{
+   padding: 8px 20px;
+   font-size: 20px; 
+}
+
+.btn--large{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.btn--medium:hover, .btn--large:hover{
+    background: linear-gradient(
+        90deg,
+        rgba(60, 183, 168, 1) 0%,
+        rgba(23, 86, 122, 1) 100%
+        );
+    color: white;
+    transition: all 0.3s ease-out;
+}

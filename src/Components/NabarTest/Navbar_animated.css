@@ -1,0 +1,157 @@
+.navindex {
+  z-index: 999;
+}
+
+#navbarToggleExternalContent {
+  z-index: 99 !important;
+}
+
+.menulist {
+  border-radius: 10px !important;
+}
+
+.navbar.active {
+  background-color: var(--navy-bg);
+  color: #fff;
+}
+
+.logo_home_nav {
+  width: 6rem;
+}
+
+.menulist {
+  width: 350px !important;
+}
+
+.dropdown-menu.dropdown-menu-end {
+  left: auto;
+  right: 0;
+}
+
+.navbar {
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.custom-width {
+  width: 75%;
+}
+
+.navbar-toggler-icon {
+  z-index: 1000;
+  color: var(white);
+}
+
+.offcanvas-title {
+  color: #012572;
+  font-family: "Cairo", sans-serif;
+}
+
+.coll_list-item {
+  color: #012572;
+  font-family: "Cairo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.coll_list-item:hover {
+  color: #3cb7a8;
+}
+
+.cube-img {
+  transition: all 0.3s ease;
+}
+
+.cube-img:hover {
+  content: url("../../assets/Vectorg.svg");
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../assets/lines.svg");
+  border: none;
+  text-decoration: none;
+  outline: none;
+  color: white;
+}
+
+.navbar-nav {
+  border-radius: 20px;
+  background-color: var(--white);
+  width: 60%;
+  align-self: self-end;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  top: 100%;
+  right: 0;
+  min-width: 150px;
+  border-radius: 15px;
+  list-style: none;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  padding: 10px 20px;
+}
+
+.dropdown-menu a {
+  color: #333;
+  text-decoration: none;
+}
+.dropdown-menu li a:hover {
+  color: #3cb7a8 !important;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.menu-toggle {
+  display: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.navcolor {
+  background-color: var(--navy-bg);
+}
+
+.icon-pointer {
+  cursor: pointer;
+}

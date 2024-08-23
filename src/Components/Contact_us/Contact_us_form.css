@@ -1,0 +1,44 @@
+.form-conatct-us-ins {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.form-contactus {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 12%;
+}
+
+.form-contact-us-lab {
+  padding: 5px;
+  font-family: "Cairo", sans-serif;
+  font-size: 0.7rem;
+  text-align: left;
+  color: #344054;
+}
+
+.contact-us-card {
+  background-color: white;
+  border: none;
+}
+
+.contact-us-card-text {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.75rem;
+}
+
+.contact-us-header {
+  font-family: "Cairo", sans-serif;
+  font-size: 2rem;
+  color: #012572;
+}
+
+.contact-us-paragraph {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: #012572;
+}
+
+.contactusphone {
+  background-color: white;
+}

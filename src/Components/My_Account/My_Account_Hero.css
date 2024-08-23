@@ -1,0 +1,72 @@
+.my-acc-hero-con{
+    margin-top: -150px;
+}  
+  .my-acc-hero-container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .my-acc-background_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-position:unset; /* Prevent image from being cut off at the top */
+    opacity: 80%;
+}
+  
+.my-acc-overlay{
+    position: absolute;
+    background: linear-gradient(270deg, #2A8C95 70%, #020E28 90%);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    z-index: 1;
+    color: white; 
+    opacity: 80%;
+}
+
+
+.my-acc-hero-h1 {
+    font-family: "Cairo", sans-serif;
+    font-size: 2.75rem;
+    position: relative;
+    z-index: 20;
+    color: white;
+}
+
+@media screen and (max-width: 960px) {
+    
+    .my-acc-backg_content{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    }
+
+    .my-acc-home-hero-h1 {
+    font-size: 45px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .my-acc-backg_content{
+    top: -6%;
+    }
+
+    .my-acc-home-hero-h1 {
+    font-size: 40px;
+    }
+
+}

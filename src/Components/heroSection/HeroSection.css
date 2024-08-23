@@ -1,0 +1,244 @@
+.container.hero-container {
+  position: relative;
+}
+
+.background_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-position: top; /* Prevent image from being cut off at the top */
+
+}
+
+.overlay{
+  position: absolute;
+  background: linear-gradient(270deg, rgba(1, 37, 114, 0) 50%, #2A8C95 70%, rgba(25, 33, 61, 1) 95%);
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  z-index: 1;
+  color: white; /* Ensure text is visible on top of the image */
+}
+
+.home-hero-h1 {
+  font-family: "Cairo", sans-serif;
+  font-size: 2.75rem;
+}
+
+.home-hero-h2 {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.2rem;
+}
+
+.home-hero-para {
+  font-family: "Cairo", sans-serif;
+  font-size: .9rem;
+}
+  
+  .hero-btns {
+    margin-top: 2%;
+    text-align: left;
+  }
+  
+  .hero-btns .btn {
+    margin: 2%;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  .no-underline-btn{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .btn-join{
+    color: #fff;
+    padding: 0.4rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background:rgba(60, 183, 168, 1);
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    width: 150px;
+  }
+
+.btn-learnmore
+{
+  border-radius: 5px;
+  background-color: transparent;
+  color:white;
+  padding: 8px 20px;
+  border: 1px solid white;
+  transition: all 0.3s ease-out;
+  padding: 0.4rem;
+  font-size: 1rem;
+  width: 150px;
+
+}
+
+  @media screen and (max-width: 960px) {
+    
+    .backg_content{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+    }
+
+    .home-hero-h1 {
+      font-size: 2rem;
+    }
+    
+    .home-hero-h2 {
+      font-size: 1rem; 
+    }
+    
+    .home-hero-para {
+      font-size: .75rem;
+    }
+
+  }
+  
+  /* @media screen and (max-width: 768px) {
+
+    .backg_content{
+      top: -6%;
+    }
+
+    .home-hero-h1 {
+      font-size: 40px;
+    }
+    
+    .home-hero-h2 {
+      font-size: 20px;
+
+    }
+    
+    .home-hero-para {
+      font-size: 12px;
+    }
+
+  
+    .overlay{
+      height: 84%;  
+    }
+
+  } */
+
+  /*
+.container.hero-container {
+  position: relative;
+}
+
+.background_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-position: top; /* Prevent image from being cut off at the top */
+
+/*}
+
+.overlay {
+  position: absolute;
+  background: linear-gradient(270deg, rgba(1, 37, 114, 0) 50%, #2A8C95 70%, #020E28 100%);
+  left: 0;
+  width: 100%;
+  height: 90.5%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  z-index: 1;
+  color: white; /* Ensure text is visible on top of the image */
+/*}
+
+.backg_content {
+  text-align: center; /* Center the text inside the div */
+/*}
+
+.home-hero-h1 {
+    font-family: "Cairo", sans-serif;
+    font-size: 60.63px;
+    font-weight: 700;
+    line-height: 83px;
+    letter-spacing: 1.2799999713897705px;
+    text-align: left;
+    color: #fff;
+}
+
+.home-hero-h2 {
+    font-family: "Cairo", sans-serif;
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 4.320000171661377px;
+    text-align: left;
+    color: #fff;  
+  }
+
+.home-hero-para {
+  font-family: "Cairo", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+
+.hero-btns{
+  text-align: left;
+}
+ */
+
+ /*
+ .background_image {
+    position: relative;
+    left: 0;
+    z-index: -1;
+    object-position: top; /* Prevent image from being cut off at the top */
+  /*}
+  
+  .hero-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    position: relative; /* Required for the pseudo-element */
+  /*}
+  
+  .hero-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(270deg, rgba(1, 37, 114, 0) 0%, #2A8C95 80%, #020E28 100%);
+    z-index: 1;
+ 
+  }
+    /**
+  .backg_content {
+    width: 35%;/* Aligns to the left */
+  /*  padding-left: 80px;
+    top: 10%;
+    position: absolute; /* Optional: Add some padding for spacing */
+ /*   z-index: 1;
+}**/

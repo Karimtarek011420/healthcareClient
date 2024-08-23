@@ -1,0 +1,18 @@
+.circles-cal {
+    z-index: -1;
+    object-position: center top; /* Adjust the position to cut a bit from the top */
+    margin-top: -0px;
+    position: absolute;
+    transform: scaleX(-1); /* Flip the image horizontally */
+    display: block; /* Ensure the image is a block-level element */
+    right: 0;
+}
+
+.calendar-position {
+    position: absolute;
+    z-index: 1; /* Ensure it is on top of the image */
+}
+
+.my-cal-container {
+    position: relative;
+}

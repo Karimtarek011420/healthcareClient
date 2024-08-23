@@ -1,0 +1,84 @@
+.con-us-hero-con{
+    margin-top: -150px;
+}
+
+.con-us-hero-container {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+  }
+  .phonecontect{
+    background-color: white !important;
+  }
+  
+  .con-us-background_image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-position:unset; /* Prevent image from being cut off at the top */
+    
+}
+  
+.con-us-overlay{
+    position: absolute;
+    background: linear-gradient(270deg, rgba(1, 37, 114, 0) 50%, #2A8C95 70%, rgba(25, 33, 61, 1) 100%);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    z-index: 1;
+    color: white; 
+    opacity: 60%;
+}
+
+
+.con-us-backg_content{
+    position: relative;
+    z-index: 20;
+    color: white;
+}
+
+.con-us-hero-h1 {
+    font-family: "Cairo", sans-serif;
+    font-size: 2.75rem;
+}
+
+.con-us-hero-p1{
+    font-family: "Cairo", sans-serif;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 960px) {
+    
+    .con-us-backg_content{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    }
+
+    .con-us-home-hero-h1 {
+    font-size: 45px;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .con-us-backg_content{
+    top: -6%;
+    }
+
+    .con-us-home-hero-h1 {
+    font-size: 40px;
+    }
+
+}

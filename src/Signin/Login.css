@@ -1,0 +1,22 @@
+.label--log {
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #012572;
+}
+
+@media screen and (max-width: 960px) {
+  .form-container-log {
+    width: 80%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-container-log {
+    width: 100%;
+    top: 40%;
+  }
+}

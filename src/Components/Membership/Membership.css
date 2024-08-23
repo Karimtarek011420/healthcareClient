@@ -1,0 +1,22 @@
+.membership-container{
+    background: #F8F8F8;
+}
+
+.membership-h1{
+    font-family: "Cairo", sans-serif;
+    font-size: 47.25px;
+    font-weight: 700;
+    line-height: 63.98px;
+    letter-spacing: 0.47999998927116394px;
+    text-align: center;
+    color: var(--greengray);
+}
+
+.membership-p{
+    font-family: "Cairo", sans-serif;
+    font-size: 17.16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #5E5F79;
+}

@@ -1,0 +1,8 @@
+{
+    "rewrites": [
+      {
+        "source": "/API/:path*",
+        "destination": "https://health.code-faster.giize.com/API/:path*"
+      }
+    ]
+  }

@@ -1,0 +1,67 @@
+.card-cal {
+    display: flex;
+    flex-direction: column;
+    width: 378px;
+    height: 600px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(128, 128, 128, 0.3);    
+}
+
+.card-cal:hover{
+    box-shadow: 5px 5px 15px #3c6a6a;  
+    background-color: whitesmoke;  
+}
+  
+.header--card-home{
+    font-family: "Cairo", sans-serif;
+    font-size: 1rem;
+    color: var(--navy2);
+}
+
+.paragraph--card-home{
+    font-family: "Cairo", sans-serif;
+    font-size: 0.75rem;
+    color: var(--gray_3);
+}
+
+.textContainer{
+    flex: 3;
+    height: 250px;
+    padding: 5px;
+}
+
+.imageContainer{
+    flex: 2;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.card-img-top{
+    width: 376px;
+    height: 217.83px;
+    opacity: 0px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.button-container {
+    margin-top: auto;
+    align-content: end;
+}
+
+.date-and-time {
+    display: flex;
+    align-items: center;
+}
+  
+.date, .time {
+    margin-right: 20px; /* Adjust spacing between date and time elements as needed */
+}
+  
+.data-time-loc-text{
+    font-family: "Cairo", sans-serif;
+    font-size: 0.65rem;
+    color: var(--navy-pur);
+}

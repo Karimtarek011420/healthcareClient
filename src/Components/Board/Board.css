@@ -1,0 +1,22 @@
+.headers{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.header1{
+    font-family: "Cairo", sans-serif;;
+    color: var(--primary);
+}
+
+.header2{
+    font-family: "Cairo", sans-serif;;
+    font-size: 2rem;
+    color: var(--navy);
+}
+
+.parag{
+    font-family: "Cairo", sans-serif;;
+    font-size: .9rem;
+    color: var(--gray_1);
+}

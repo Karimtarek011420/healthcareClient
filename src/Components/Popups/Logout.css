@@ -1,0 +1,11 @@
+.pp-logout-title {
+  font-family: "Cairo", sans-serif;
+  font-size: 1rem;
+  color: #012572;
+}
+
+.pp-logout-msg {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: #2f2f2f;
+}

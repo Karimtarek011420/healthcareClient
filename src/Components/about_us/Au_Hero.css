@@ -1,0 +1,95 @@
+.container.Au-hero-container {
+  position: relative;
+}
+
+.Au-background_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-position: top; /* Prevent image from being cut off at the top */
+
+}
+
+.Au-overlay{
+  position: absolute;
+  background: linear-gradient(270deg, rgba(1, 37, 114, 0) 50%, #2A8C95 70%, rgba(25, 33, 61, 1) 95%);
+  left: 0;
+  top: 0;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  z-index: 1;
+  color: white; /* Ensure text is visible on top of the image */
+}
+
+.Au-hero-h1 {
+  font-family: "Cairo", sans-serif;
+  font-size: 2.75rem;
+}
+
+.Au-hero-h2 {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.2rem;
+}
+
+.Au-hero-para {
+  font-family: "Cairo", sans-serif;
+  font-size: .9rem;
+}
+  
+  @media screen and (max-width: 960px) {
+    
+    .Au-backg_content{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+    }
+
+    .Au-home-hero-h1 {
+      font-size: 45px;
+    }
+    
+    .Au-home-hero-h2 {
+      font-size: 25px;
+
+    }
+    
+    .Au-home-hero-para {
+      font-size: 14px;
+    }
+
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    .Au-backg_content{
+      top: -6%;
+    }
+
+    .Au-home-hero-h1 {
+      font-size: 40px;
+    }
+    
+    .Au-home-hero-h2 {
+      font-size: 20px;
+
+    }
+    
+    .Au-home-hero-para {
+      font-size: 12px;
+    }
+
+  
+    .overlay{
+      height: 84%;  
+    }
+
+  }

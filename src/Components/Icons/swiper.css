@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.icons-image-con{
+    width: 192px;
+    height: 192px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.icon-images{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

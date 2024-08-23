@@ -1,0 +1,42 @@
+.form-email{
+    font-size: medium;
+}
+
+.header-inquiry-container{
+    padding: 60px 100px 0px 100px;
+}
+.header-inquiry{
+    font-family: "Cairo", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: white;
+}
+
+.header2-inquiry{
+    font-family: "Cairo", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+.form-control{
+    padding: 10px;
+}
+
+.form-inquiry{
+    background-color: white;
+    border-radius: 10px;
+    padding: 2%;
+}
+.form-label{
+    padding: 5px;
+    font-family: "Cairo", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+    color: #012572;
+}

@@ -1,0 +1,196 @@
+.title {
+  color: rgba(23, 86, 122, 1);
+  font-size: xx-large;
+}
+
+.image {
+  position: relative;
+  display: block;
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.no-underline-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-control {
+  background-color: #f4f3f3;
+  color: black;
+}
+
+a,
+a {
+  color: #000000;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="telephone"],
+button,
+.phoneinput,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-size: large;
+  padding: 28px, 19px, 28px, 19px;
+}
+
+.eyebutton {
+  border: 1px solid rgb(214, 214, 214);
+  border-radius: 5px;
+}
+
+.phoneinput .react-phone-number-input__icon {
+  background-color: #6c757d;
+}
+
+.phoneinput input[type="tel"] {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 0.85rem;
+  background-color: transparent;
+}
+
+.react-international-phone-input-container
+  .react-international-phone-country-selector-button {
+  border: none;
+  background-color: transparent;
+}
+
+label {
+  margin-top: 0.25rem;
+  font-size: medium;
+}
+
+.register-labels {
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #012572;
+}
+
+button.btn.submit {
+  color: #fff;
+  padding: 0.3rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+  background: rgba(60, 183, 168, 1);
+  outline: none;
+  border: none;
+}
+
+button.btn.submit:hover {
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(23, 86, 122, 1) 0%,
+    rgba(60, 183, 168, 1) 100%
+  );
+  transition: all 0.5s ease-out;
+}
+
+.forgot {
+  font-size: medium;
+  color: var(--primary);
+}
+
+.instructions {
+  font-size: 0.75rem;
+  border-radius: 0.5rem;
+  background: #000;
+  color: #fff;
+  padding: 0.25rem;
+  position: relative;
+  bottom: -10px;
+}
+
+.instructions > svg {
+  margin-right: 0.25rem;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.valid {
+  color: limegreen;
+  margin-left: 0.25rem;
+}
+
+.invalid {
+  color: red;
+  margin-left: 0.25rem;
+}
+
+.errmsg {
+  background-color: lightpink;
+  color: firebrick;
+  font-weight: bold;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  display: inline-block;
+  text-align: center;
+  font-size: medium;
+}
+
+.btn--border {
+  margin-top: auto;
+  align-content: end;
+}
+
+.otp-input {
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.otp-header1 {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.2rem;
+  color: #012572;
+}
+
+.otp-header2 {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.9rem;
+  color: #012572;
+}
+
+.otp-paragraph {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.7rem;
+  color: #5e5f79;
+}
+
+@media screen and (max-width: 960px) {
+  .form-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .form-container {
+    width: 100%;
+  }
+}

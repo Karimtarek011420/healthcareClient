@@ -1,0 +1,38 @@
+.parent {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.centerd-cards {
+    margin-left: 5%;
+}
+
+.header_21 {
+    color: var(--greengray);
+    font-family: "Cairo", sans-serif;
+    font-size: 2rem;
+}
+
+.header_22 {
+    color: var(--primary);
+    font-family: "Cairo", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.paragraph_11 {
+    font-family: "Cairo", sans-serif;
+    font-size: 0.8rem;
+    color: var(--gray_1);
+}
+
+/* Media Query */
+@media screen and (max-width: 700px) {
+    .header_21 {
+        font-size: 1.5rem; /* Added unit */
+    }
+
+    .header_22 {
+        font-size: 1.5rem; /* Added unit */
+    }
+}

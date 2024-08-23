@@ -1,0 +1,47 @@
+.board-card {
+  border: none;
+  border-radius: 15px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  transition: box-shadow 0.3s ease;
+  background-color: ghostwhite;
+}
+
+.board-card:hover {
+  background-color: ghostwhite;
+  box-shadow: 0 4px 8px var(--primary);
+}
+
+.bod-header1 {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.9rem;
+  color: var(--navy);
+}
+
+.bod-header2 {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: var(--primary);
+}
+
+.bod-header3 {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: var(--gray_1);
+}
+
+.imageContainer-bod {
+  flex: 3;
+  height: 300px;
+}
+
+.textContainer-bod {
+  flex: 3;
+  min-height: 300px;
+}
+
+.bod-card-img-top {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 0px 0px 0px;
+}

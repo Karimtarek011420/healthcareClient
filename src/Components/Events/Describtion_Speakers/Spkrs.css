@@ -1,0 +1,36 @@
+.spkrs-img-container {
+  width: 296px;
+  height: 300px;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+}
+
+.spkrs-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 100% 0%;
+}
+
+.spkr-name {
+  font-family: "Cairo", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #012572;
+}
+
+.spkr-job-title {
+  font-family: "Cairo", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #3cb7a8;
+}
+
+.spkr-paragraph {
+  font-family: "Cairo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6d758f;
+}

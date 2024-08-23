@@ -1,0 +1,18 @@
+.vc-e1-p1{
+    color: #707070;
+    font-size: 1.2rem;
+}
+
+.vc-e1-header{
+    color: var(--greengray);
+}
+
+.vc-e1-p2{
+    color: #5E5F79;
+    font-size: 0.9rem;
+    font-style: "cairo", sans-serif;
+}
+
+.img-con-vc{
+    width: 100%;
+}

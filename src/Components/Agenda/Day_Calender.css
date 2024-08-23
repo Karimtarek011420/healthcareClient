@@ -1,0 +1,45 @@
+.btn-prev-dc, .btn-nex-dc{
+    width: 5%;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+}
+
+.btn-prev-dc:active, .btn-nex-dc:active{
+    background-color: lightgray;
+}
+
+.btn-day{
+    border: none;
+    background-color: white;
+    color: #333333;
+    font-family: "Cairo", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.btn-day:active{
+    color: var(--primary);  
+    background-color: lightgray;  
+}
+
+.btn-day-active{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    color: var(--primary);
+    font-family: "Cairo", sans-serif;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.btn-day-active::after{
+    position: absolute;
+    content: " ";
+    top: 1.8rem;
+    bottom: -0.5rem;
+    width: 90%;
+    right: 0;
+    left: 0;
+    background-color: #3CB7A8;
+}

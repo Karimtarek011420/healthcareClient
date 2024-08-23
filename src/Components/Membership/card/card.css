@@ -1,0 +1,60 @@
+.membership-card{
+    /* width: 386px; */
+    height: 650px;
+    gap: 0px;
+    border-radius: 28px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+  
+}
+
+.membership-card:hover{
+    background-color: ghostwhite;
+    box-shadow: 0 6px 6px var(--primary);
+}
+
+.mem_active{
+    font-family: "Cairo", sans-serif;
+    font-size: 1rem;
+    color: var(--greengray);
+
+}
+
+.mem_price{
+    font-family: "Cairo", sans-serif;
+    font-size: 40.52px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color: var(--primary);
+
+}
+
+.mem-card-title{
+    font-family: "Cairo", sans-serif;
+    font-size: 17.44px;
+    font-weight: 700;
+    line-height: 23.99px;
+    text-align: left;
+    color: var(--navy-pur);
+}
+
+.mem-list{
+    min-height: 320px;
+    font-family: "Cairo", sans-serif;
+    font-size: 15.75px;
+    font-weight: 400;
+    text-align: left;
+    color: var(--gray_3);
+}
+
+.mem-card-name{
+    color: var(--greengray);
+}
+
+@media screen and (max-width: 600px) {
+    .membership-card{
+        /* width: 386px; */
+        height: 810px;}
+
+}

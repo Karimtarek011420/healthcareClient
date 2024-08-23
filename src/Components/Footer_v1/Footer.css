@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.fluid-container {
+  background: linear-gradient(180deg, #17567a 0%, #43b6a7 100%);
+  color: white;
+}
+
+.inner_container {
+  padding: 40px;
+  padding-bottom: 20px;
+}
+
+.footer-subscription-heading {
+  /* style: Text/Medium/Semi Bold;*/
+  font-family: "Cairo", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+}
+
+.footer-subscription-text {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.footer-col-head {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+}
+
+.footer-text {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+}
+
+.inline-form {
+  display: flex;
+  align-items: center; /* Optional: centers the items vertically */
+}
+
+.logo_white {
+  padding: 40px;
+}
+
+.seperator {
+  border: 1.5px solid rgb(255, 255, 255);
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.social-media-wrap {
+  font-size: large;
+}

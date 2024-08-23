@@ -1,0 +1,121 @@
+.my-count-btns-card {
+  height: 670px;
+  border-radius: 20px;
+}
+
+.btn-myacc-active:hover,
+.btn-myacc-events-active:hover,
+.btn-myacc-signout-active:hover {
+  background-color: lightgray;
+}
+
+.btn-myacc:hover,
+.btn-myacc-events:hover,
+.btn-myacc-signout:hover {
+  background-color: lightgray;
+}
+
+.btn-myacc,
+.btn-myacc-events,
+.btn-myacc-signout {
+  border: none;
+  background-color: white;
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: #312b29;
+}
+
+.btn-myacc-active,
+.btn-myacc-events-active,
+.btn-myacc-signout-active {
+  position: relative;
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: var(--primary);
+}
+
+.btn-myacc-active::after,
+.btn-myacc-events-active::after,
+.btn-myacc-signout-active::after {
+  position: absolute;
+  content: " ";
+  top: 1.9rem;
+  bottom: -0.1rem;
+  width: 80%;
+  right: 0;
+  left: 0;
+  background-color: #3cb7a8;
+  text-align: center;
+}
+
+.disabled-textfield,
+.my-profile-lab,
+.hello-msg {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: #312b29;
+}
+
+.slash {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.9rem;
+  color: #1c1c1c;
+}
+
+.home-slash {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.8rem;
+  color: #312b29;
+  background-color: transparent;
+}
+
+.home-slash:hover {
+  background-color: lightgray;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.general-info-lab {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.7rem;
+  color: black;
+}
+
+.security-textfield {
+  font-family: "Cairo", sans-serif;
+  font-size: 0.5rem;
+  color: rgb(46, 41, 41);
+}
+
+.orange-no-border-btn {
+  color: #f04f23;
+  font-size: 0.6rem;
+  background-color: transparent;
+}
+
+.orange-no-border-btn:hover {
+  background-color: lightgray;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.save-change-btn {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  margin-right: 10px;
+  width: 100%;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.save-change-btn:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(60, 183, 168, 1) 0%,
+    rgba(23, 86, 122, 1) 100%
+  );
+  color: white;
+  transition: all 0.3s ease-out;
+}

@@ -1,0 +1,13 @@
+.my_container {
+    padding-bottom: 50px; /* Ensure enough padding at the bottom */
+    background-image: url('../../assets/circles.svg');
+    background-repeat: no-repeat;
+    text-align: left;
+}
+
+/* @media screen and (max-width: 900px){
+    .my_container {
+        padding-bottom: 50px; /* Ensure enough padding at the bottom 
+        height: 4100px;
+    }
+} */
